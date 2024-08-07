@@ -1,9 +1,9 @@
 import React from 'react'
-import { Login } from './components'
+import { Login, Register } from './components'
 function App() {
   return (
     <>
-      <Login/>
+      <Register/>
     </>
   )
 }
