@@ -1,10 +1,11 @@
 import React from 'react'
-import { Login, Register } from './components'
+import { Header, Home, Login, Register, Search } from './components'
 function App() {
   return (
-    <>
-      <Register/>
-    </>
+    <div className='flex flex-col w-full h-full'>
+      <Header/>
+      <Home/>
+    </div>
   )
 }
 

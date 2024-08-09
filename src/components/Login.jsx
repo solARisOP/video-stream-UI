@@ -4,7 +4,7 @@ import cinevistaLogo from "../assets/cinevista.png"
 
 function Login() {
   return (
-    <div className='flex h-screen w-screen justify-center dark:bg-black'>
+    <div className='flex h-full w-full justify-center dark:bg-black'>
       <div className='rounded-md p-4 w-3/4 sm:w-1/3 sm:mt-16'>
         <div className='flex flex-col'>
           <div className='flex flex-col items-center justify-center'>
