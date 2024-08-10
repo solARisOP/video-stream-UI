@@ -5,6 +5,7 @@ import Header from "./Header.jsx";
 import Search from './Search.jsx' 
 import Lowerbar from './Lowerbar.jsx' 
 import Sidebar from "./Sidebar.jsx";
+import Channel from "./Channel.jsx";
 
 export{
     Header,
@@ -13,5 +14,6 @@ export{
     Home,
     Search,
     Lowerbar,
-    Sidebar
+    Sidebar,
+    Channel
 }
