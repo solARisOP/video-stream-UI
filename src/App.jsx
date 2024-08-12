@@ -1,10 +1,11 @@
 import React from 'react'
-import { Channel, Header, Home, Login, Register, Search } from './components'
+import { Channel, Header, Home, Login, OtpVerification, Playlist, Register, Search, Video } from './components'
+import { Playlists, ProfileEdit } from './components/User'
 function App() {
   return (
     <>
       <Header/>
-      <Channel/>
+      <Home/>
     </>
   )
 }
