@@ -1,19 +1,21 @@
 import ProfileEdit from "./ProfileEdit.jsx";
-import Sidebar from "./Sidebar.jsx";
 import Playlists from "./Playlists.jsx";
-import AllVideos from "./AllVideos.jsx";
+import Videos from "./Videos.jsx";
 import VideoEdit from "./VideoEdit.jsx";
 import VideoUpload from "./VideoUpload.jsx";
 import TweetEdit from "./TweetEdit.jsx";
 import TweetUpload from "./TweetUpload.jsx";
+import Tweets from "./Tweets.jsx"
+import PlaylistEdit from "./PlaylistEdit.jsx";
 
 export {
     ProfileEdit,
-    Sidebar,
     Playlists,
-    AllVideos,
+    PlaylistEdit,
+    Videos,
     VideoEdit,
     VideoUpload,
     TweetEdit,
-    TweetUpload
+    TweetUpload,
+    Tweets
 }

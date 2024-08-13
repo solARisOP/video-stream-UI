@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Sidebar from './Sidebar.jsx'
 
-function Playlists() {
+function Tweets() {
 	const [isSticky, setIsSticky] = useState(false);
 
 	useEffect(() => {
@@ -36,7 +36,7 @@ function Playlists() {
 					{/* cover pic */}
 					<div className='h-40 flex'>
 						<div className='flex-1 border border-gray-500 rounded-lg text-start items-center flex'>
-							<p className='text-xl text'>All Playlists</p>
+							<p className='text-xl text'>All Tweets</p>
 						</div>
 					</div>
 
@@ -79,4 +79,4 @@ function Playlists() {
 	)
 }
 
-export default Playlists
+export default Tweets

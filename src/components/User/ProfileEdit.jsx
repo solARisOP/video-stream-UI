@@ -5,15 +5,20 @@ function ProfileEdit() {
   return (
     <div className='flex flex-1 scrollbar-thin'>
 
-        <Sidebar/>
+      <Sidebar />
 
-        <div className='w-full sm:w-5/6 scrollbar-thin flex flex-col'>
+      <div className='w-full sm:w-5/6 scrollbar-thin p-3'>
 
-            <div className='grid grid-cols-1 sm:grid-cols-3'>
-
-            </div>
-
+        <div class="flex-1 flex flex-col gap-4">
+          <div class="bg-blue-500 p-4"></div>
+          <div class="bg-blue-500 p-4"></div>
+          <div class="bg-blue-500 p-4"></div>
+          <div class="bg-blue-500 p-4"></div>
+          <div class="bg-blue-500 p-4"></div>
+          <div class="bg-blue-500 p-4"></div>
         </div>
+
+      </div>
     </div>
   )
 }

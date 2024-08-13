@@ -1,11 +1,11 @@
 import React from 'react'
-import cinevistaLogo from '../assets/cinevistaHorizontal.png'
+import cinevistaLogo from '../../assets/cinevistaHorizontal.png'
 import { FaMagnifyingGlass } from "react-icons/fa6";
 
 function Header() {
 
     return (
-        <div className='w-full flex justify-between items-center dark:bg-black h-16 px-4 pl-1 pr-2'>
+        <div className='flex justify-between items-center dark:bg-black h-16 px-4 pl-1 pr-2'>
             <div>
                 <img src={cinevistaLogo} className='size-32 sm:size-44 flex items-center justify-center' />
             </div>

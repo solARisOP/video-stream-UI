@@ -1,14 +1,38 @@
 import React from "react";
-import googleLogo from "../assets/google.png";
-import cinevistaLogo from "../assets/cinevista.png";
+import googleLogo from "../../assets/google.png";
+import cinevistaLogo from "../../assets/cinevista.png";
 
-function OtpVerification() {
+function Register() {
 	return (
 		<div className="flex flex-1 justify-center items-center scrollbar-thin">
 
 			<div className="p-2 w-3/4 sm:w-1/3 h-full flex flex-col gap-2">
 				<div className="flex flex-col items-center justify-center">
 					<img src={cinevistaLogo} alt="" className="size-40" />
+				</div>
+				<div className="flex flex-col gap-1">
+					<label for="fullname" className="dark:text-white text-lg sm:text-xl">
+						Fullname
+					</label>
+
+					<input
+						type="text"
+						placeholder="Enter your fullname here"
+						id="fullname"
+						className="rounded p-1 dark:bg-black bg-white border border-slate-500 text-md sm:text-lg dark:text-white"
+					/>
+				</div>
+				<div className="flex flex-col gap-1">
+					<label for="username" className="dark:text-white text-lg sm:text-xl">
+						Username
+					</label>
+
+					<input
+						type="text"
+						placeholder="Enter your username here"
+						id="username"
+						className="rounded p-1 dark:bg-black bg-white border border-slate-500 text-md sm:text-lg dark:text-white"
+					/>
 				</div>
 				<div className="flex flex-col gap-1">
 					<label for="email" className="dark:text-white text-lg sm:text-xl">
@@ -26,14 +50,14 @@ function OtpVerification() {
 				</div>
 				<div className="flex flex-col gap-1">
 					<label
-						for="otp"
+						for="password"
 						className="text-black dark:text-white text-lg sm:text-xl"
 					>
-						OTP
+						Password
 					</label>
 
 					<input
-						type="text"
+						type="Password"
 						placeholder="Enter your password here"
 						id="password"
 						className="rounded p-1 dark:bg-black bg-white border border-slate-500 text-md sm:text-lg text-black dark:text-white"
@@ -60,4 +84,4 @@ function OtpVerification() {
 	);
 }
 
-export default OtpVerification;
+export default Register;

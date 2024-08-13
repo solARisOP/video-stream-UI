@@ -1,38 +1,14 @@
-import React from "react";
-import googleLogo from "../assets/google.png";
-import cinevistaLogo from "../assets/cinevista.png";
+import React from 'react'
+import googleLogo from "../../assets/google.png"
+import cinevistaLogo from "../../assets/cinevista.png"
 
-function Register() {
-	return (
-		<div className="flex flex-1 justify-center items-center scrollbar-thin">
+function Login() {
+  return (
+    <div className="flex flex-1 justify-center items-center scrollbar-thin">
 
-			<div className="p-2 w-3/4 sm:w-1/3 h-full flex flex-col gap-2">
+			<div className="p-2 w-3/4 sm:w-1/3 h-full flex flex-col gap-4">
 				<div className="flex flex-col items-center justify-center">
 					<img src={cinevistaLogo} alt="" className="size-40" />
-				</div>
-				<div className="flex flex-col gap-1">
-					<label for="fullname" className="dark:text-white text-lg sm:text-xl">
-						Fullname
-					</label>
-
-					<input
-						type="text"
-						placeholder="Enter your fullname here"
-						id="fullname"
-						className="rounded p-1 dark:bg-black bg-white border border-slate-500 text-md sm:text-lg dark:text-white"
-					/>
-				</div>
-				<div className="flex flex-col gap-1">
-					<label for="username" className="dark:text-white text-lg sm:text-xl">
-						Username
-					</label>
-
-					<input
-						type="text"
-						placeholder="Enter your username here"
-						id="username"
-						className="rounded p-1 dark:bg-black bg-white border border-slate-500 text-md sm:text-lg dark:text-white"
-					/>
 				</div>
 				<div className="flex flex-col gap-1">
 					<label for="email" className="dark:text-white text-lg sm:text-xl">
@@ -43,8 +19,6 @@ function Register() {
 						type="email"
 						placeholder="Enter your email here"
 						id="email"
-						disabled
-						value={"nitishraosnr2001@gmail.com"}
 						className="rounded p-1 dark:bg-black bg-white border border-slate-500 text-md sm:text-lg dark:text-white"
 					/>
 				</div>
@@ -57,7 +31,7 @@ function Register() {
 					</label>
 
 					<input
-						type="Password"
+						type="password"
 						placeholder="Enter your password here"
 						id="password"
 						className="rounded p-1 dark:bg-black bg-white border border-slate-500 text-md sm:text-lg text-black dark:text-white"
@@ -69,7 +43,7 @@ function Register() {
 						z
 						className="w-1/2 mt-3 p-2 rounded-lg bg-blue-600 text-white dark:text-black"
 					>
-						Sign Up
+						Sign In
 					</button>
 				</div>
 				<div className="w-full mt-4 flex flex-col items-center justify-center gap-3">
@@ -81,7 +55,7 @@ function Register() {
 			</div>
 
 		</div>
-	);
+  )
 }
 
-export default Register;
+export default Login
