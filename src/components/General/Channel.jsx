@@ -87,9 +87,6 @@ function Channel() {
                         <div className='bg-pink-500 text-center h-32 sm:h-52'>01</div>
                     </div>
                 </div>
-
-                {/* Lowerbar */}
-                <Lowerbar />
             </div>
         </div>
     )

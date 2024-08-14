@@ -41,10 +41,7 @@ function Playlist() {
                 <div className='bg-pink-500 text-center h-32 w-full'>01</div>
                 <div className='bg-pink-500 text-center h-32 w-full'>01</div>
             </div>
-            {/* Lowerbar */}
-            <Lowerbar/>
         </div>
-        
     </div>
   )
 }

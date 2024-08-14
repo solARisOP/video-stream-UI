@@ -62,8 +62,6 @@ function Video() {
                         <div className='bg-pink-500 text-center h-52 w-full'>01</div>
                     </div>
                 </div>
-
-                <Lowerbar />
             </div>
         </div>
     )

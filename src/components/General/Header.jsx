@@ -1,6 +1,7 @@
 import React from 'react'
 import cinevistaLogo from '../../assets/cinevistaHorizontal.png'
 import { FaMagnifyingGlass } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -15,16 +16,16 @@ function Header() {
                     <FaMagnifyingGlass size={20} color='' />
                 </button>
             </div>
-            <div className='hidden sm:flex pr-4 text-blue-600 text-lg border border-blue-600 rounded-md text-center'>
+            <Link to='/auth/login' className='hidden sm:flex pr-4 text-blue-600 text-lg border border-blue-600 rounded-md text-center'>
                 <p className='text-center'>Sign In</p>
-            </div>
+            </Link>
             <div className='flex sm:hidden items-center justify-between gap-3'>
                 <button className='items-center flex justify-center'>
                     <FaMagnifyingGlass size={20} color='' />
                 </button>
-                <div className='text-blue-600 text-lg border border-blue-600 rounded-md text-center'>
-                    <p className='text-center'>Sign In</p>
-                </div>
+                <Link to='/auth/login' className='text-blue-600 text-lg border border-blue-600 rounded-md text-center'>
+                    Sign In
+                </Link>
             </div>
         </div>
     )
