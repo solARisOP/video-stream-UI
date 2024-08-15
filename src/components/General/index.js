@@ -10,11 +10,17 @@ import Video from "./Video.jsx";
 import MiniSidebar from "./MiniSidebar.jsx";
 import Playlist from "./Playlist.jsx";
 import OtpVerification from "./OtpVerification.jsx";
+import Subscriptions from "./Subscriptions.jsx";
+import WatchHistory from "./WatchHistory.jsx";
+import You from "./You.jsx";
+import SavedPlaylists from "./SavedPlaylists.jsx";
+
 
 export{
     Header,
     Login,
     Register,
+    Subscriptions,
     Home,
     Search,
     Lowerbar,
@@ -23,5 +29,8 @@ export{
     Channel,
     Video,
     Playlist,
-    OtpVerification
+    OtpVerification,
+    WatchHistory,
+    You,
+    SavedPlaylists
 }

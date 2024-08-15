@@ -1,6 +1,5 @@
 import React from 'react'
 import Sidebar from './Sidebar.jsx'
-import Lowerbar from './Lowerbar.jsx'
 import { useEffect, useState } from 'react'
 
 function Channel() {
